@@ -14,17 +14,16 @@ b. Otherwise, it change directory to the given directory.
 a. It lists the current directory, if it is called without arguments.
 b. Otherwise, it lists the given directory.
 6. Enhance the above script to support the following options individually:
-a. –l: list in long format
-b. –a: list all entries including the hiding files.
-c. –d: if an argument is a directory, list only its name
-d. –i: print inode number
-e. –R: recursively list subdirectories
+a. –l.: list in long format
+b. –a.: list all entries including the hiding files.
+c. –d.: if an argument is a directory, list only its name
+d. –i.: print inode number
+e. –R.: recursively list subdirectories
 Bonus: enhance the above script to support the following Synopsis:
-
-myls -option1 –option2
-myls –option2 –option1
-myls –option1option2
-myls –option2option1
+.myls -option1 –option2
+.myls –option2 –option1
+.myls –option1option2
+.myls –option2option1
 7. Create a script called mytest where:
 a. It check the type of the given argument (file/directory)
 b. It check the permissions of the given argument (read/write/execute)
@@ -58,23 +57,23 @@ Note: write the mail body in a file called mtemplate.
 saved in /var/mail/username.
 
 7. What is the output of the following script
-typeset –i n1
-typeset –i n2
-n1=1
-n2=1
-while test $n1 –eq $n2
-do
-n2=$n2+1
-print $n1
-if [ $n1 –gt $n2 ]
-then
-break
-else
-continue
-fi
-n1=$n1+1
-print $n2
-done
+.typeset –i n1
+.typeset –i n2
+.n1=1
+.n2=1
+.while test $n1 –eq $n2
+.do
+.n2=$n2+1
+.print $n1
+.if [ $n1 –gt $n2 ]
+.then
+.break
+.else
+.continue
+.fi
+.n1=$n1+1
+.print $n2
+.done
 8. Create the following menu:
 a. Press 1 to ls
 b. Press 2 to ls –a
