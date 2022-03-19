@@ -56,12 +56,6 @@ home directory.
 Note: write the mail body in a file called mtemplate.
 6. Write a script called chkmail to check for new mails every 10 seconds. Note: mails are
 saved in /var/mail/username.
-Bonus:
-Open a talk session to a certain user when she/he logs into the system.
-
-Lab 2
-
-2
 
 7. What is the output of the following script
 typeset –i n1
@@ -93,6 +87,7 @@ Note: use arrays
 11.Write a function called mysq that calculate square if its argument.
 
 **LAB3**
+
 Using sed utility
 1- Display the lines that contain the word “lp” in /etc/passwd file.
 2- Display /etc/passwd file except the third line.
