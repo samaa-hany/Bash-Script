@@ -2,11 +2,11 @@
 **LAB 1**
 1. Create a script that asks for user name then send a greeting to him.
 2. Create a script called s1 that calls another script s2 where:
-a. In s1 there is a variable called x, it's value 5
-b. Try to print the value of x in s2 by two different ways.
+1. In s1 there is a variable called x, it's value 5
+2. Try to print the value of x in s2 by two different ways.
 3. Create a script called mycp where:
-a. It copies a file to another
-b. It copies multiple files to a directory.
+1. It copies a file to another
+2. It copies multiple files to a directory.
 4. Create a script called mycd where:
 a. It changed directory to the user home directory, if it is called without arguments.
 b. Otherwise, it change directory to the given directory.
